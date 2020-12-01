@@ -107,13 +107,14 @@ class FormInput extends React.Component {
           >
             Send
           </Button>
+
           {
-            (this.setState.emailSent = false && (
+            (this.state.emailSent = false && (
               <p className="d-inline error-msg">Email Not Sent</p>
             ))
           }
           {
-            (this.setState.emailSent = true && (
+            (this.state.emailSent = true && (
               <p className="d-inline success-msg">Email Sent</p>
             ))
           }

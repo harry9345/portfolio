@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Navbar";
 
 function NavBar() {
   return (
-    <Navbar className="border-bottom" bg="transparent" expand="lg">
+    <Navbar className="border-bottom fixed-top" bg="white" expand="lg">
       <Navbar.Brand> Harry Is Here</Navbar.Brand>
       <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
       <Navbar.Collapse id="navbar-toggle">
